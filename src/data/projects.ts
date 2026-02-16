@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -15,7 +14,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Socket.io",
       "JWT",
       "RBAC",
-      "HTTP Range Streaming"
+      "HTTP Range Streaming",
     ],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
@@ -34,7 +33,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "MongoDB",
       "JWT Authentication",
       "Pagination & Filtering",
-      "REST API"
+      "REST API",
     ],
     image: {
       LIGHT: "/images/projects/applyMateLight.webp",
@@ -51,14 +50,13 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Live Preview",
       "Frontend Development",
       "DOM Manipulation",
-      "Code Playground"
+      "Code Playground",
     ],
     image: {
       LIGHT: "/images/projects/codeEasyLight.webp",
       DARK: "/images/projects/codeEasyDark.webp",
     },
-  }
-  ,
+  },
   {
     index: 3,
     title: "Realtime Collaborative Code Editor",
@@ -70,7 +68,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Monaco Editor",
       "Judge0 API",
       "WebSockets",
-      "Real-time Collaboration"
+      "Real-time Collaboration",
     ],
     image: {
       LIGHT: "/images/projects/realtimeEditorLight.webp",
@@ -88,7 +86,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "TailwindCSS",
       "NewsAPI",
       "REST API Integration",
-      "Responsive UI"
+      "Responsive UI",
     ],
     image: {
       LIGHT: "/images/projects/flashNewsLight.webp",
@@ -107,16 +105,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A full-stack multi-tenant video platform with JWT authentication, RBAC, real-time processing updates via Socket.io, and optimized HTTP Range-based video streaming. Includes simulated sensitivity analysis for content moderation.",
-    sourceCodeHref: "https://github.com/Aakashkethavath/video-streaming-platform",
+    sourceCodeHref:
+      "https://github.com/Aakashkethavath/video-streaming-platform",
     liveWebsiteHref: "https://video-streaming-nu-three.vercel.app/",
   },
   {
     name: "Apply-mate – Job Application Tracker",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/AM.webp",
-      "/images/projects/AMDark.webp",
-    ],
+    imageUrl: ["/images/projects/AM.webp", "/images/projects/AMDark.webp"],
     description:
       "A MERN-based job tracking platform with JWT authentication and cookie-based session management. Features pagination, advanced filtering, sorting, and search for efficient job application management.",
     sourceCodeHref: "https://github.com/Aakashkethavath/Apply_mate",
@@ -137,10 +133,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Realtime Collaborative Code Editor",
     favicon: "/images/projects/logos/realtimeCollab.ico",
-    imageUrl: [
-      "/images/projects/cs1.webp",
-      "/images/projects/cs2.webp",
-    ],
+    imageUrl: ["/images/projects/cs1.webp", "/images/projects/cs2.webp"],
     description:
       "A real-time collaborative code editor built with React, Node.js, Socket.io, and Monaco Editor. Supports multi-user room sessions, live code synchronization, and code execution via Judge0 API.",
     sourceCodeHref: "https://github.com/Aakashkethavath/code__collab",
@@ -149,9 +142,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Flash Brief News App",
     favicon: "/images/projects/logos/fb.ico",
-    imageUrl: [
-      "/images/projects/ib.webp",
-    ],
+    imageUrl: ["/images/projects/ib.webp"],
     description:
       "A responsive React-based news aggregation app powered by NewsAPI, featuring country and category filtering, search functionality, pagination, and dark/light theme toggle.",
     sourceCodeHref: "https://github.com/Aakashkethavath/Info_Burst",

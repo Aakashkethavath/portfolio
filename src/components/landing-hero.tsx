@@ -50,9 +50,8 @@ export default function LandingHero() {
                 I am a software developer specializing in building
                 high-performance, user-focused web applications. Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">  ExpressJS</span>,{" "}
-                 and
-                I am good at {" "}
+                <span className="font-semibold text-accent"> ExpressJS</span>,{" "}
+                and I am good at{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span> and{" "}
                 <span className="font-semibold text-accent">CSS</span>

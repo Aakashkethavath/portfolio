@@ -64,5 +64,4 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "TCP/IP", icon: NodeSvg },
     ],
   },
- 
 ];
