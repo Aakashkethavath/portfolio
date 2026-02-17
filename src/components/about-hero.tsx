@@ -11,23 +11,59 @@ import DuotoneImage from "./duotone-image";
 export default function AboutHero() {
   return (
     <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
-      <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
+      {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
-            <DuotoneImage
-              src={heroProfileImg}
-              width={100}
-              //radius ={16}
-              height={100}
-              className="h-auto w-full px-0 xl:px-16"
-              alt="hero image"
-              lightColor="#E6"
-              darkColor="#004D4D"
-              unoptimized
-            />
+            <div className="relative mx-auto w-64 sm:w-80 md:w-96 lg:w-[420px] xl:w-[480px]">
+              <DuotoneImage
+                src={heroProfileImg}
+                width={100}
+
+                height={100}
+                className="h-auto w-full px-0 xl:px-16"
+                 //className="h-auto w-full rounded-2xl object-cover shadow-xl transition-transform duration-500 hover:scale-105"
+                alt="hero image"
+                lightColor="#E6"
+                darkColor="#004D4D"
+                unoptimized
+               
+              />
+            </div>
           </FadeUp>
         </AnimatePresence>
-      </div>
+      </div> */
+        <div className="w-full sm:w-1/2 lg:w-1/2 flex justify-center lg:justify-start">
+          <AnimatePresence>
+            <FadeUp key="hero-image" duration={0.6}>
+              {/* Image Wrapper */}
+              <div className="relative w-48 sm:w-56 md:w-64 lg:w-72 xl:w-80">
+                {/* Profile Image */}
+                <DuotoneImage
+                  src={heroProfileImg}
+                  alt="Kethavath Akash profile photo"
+                  width={400}
+                  height={400}
+                  className="
+            w-full
+            h-auto
+            rounded-2xl
+            object-cover
+            shadow-lg
+            transition-all
+            duration-300
+            ease-in-out
+            hover:scale-105
+          "
+                  lightColor="#E6"
+                  darkColor="#004D4D"
+                  unoptimized
+                />
+              </div>
+            </FadeUp>
+          </AnimatePresence>
+        </div>
+
+      }
       <div className="sm:1/2 mt-10 w-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
